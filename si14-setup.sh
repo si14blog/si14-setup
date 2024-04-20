@@ -4,6 +4,8 @@
 sudo apt update
 sudo apt upgrade -y
 
+apt install curl socat -y
+
 # Install PHP 8.1 without recommended packages
 sudo apt install --no-install-recommends php8.1
 
